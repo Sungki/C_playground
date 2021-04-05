@@ -5,6 +5,7 @@
 
 #include "MyStream.h"
 #include "MyMap.h"
+#include "MyStoi.h"
 
 int main()
 {
@@ -12,5 +13,7 @@ int main()
 //	std::string t = "boy";
 //	std::cout << MyStream::FindInStream(in, t);
 
-	MyMap::Find("boy");
+//	MyMap::Find("boy");
+
+	std::cout << MyStoi::Stoi("1000000000000");
 }

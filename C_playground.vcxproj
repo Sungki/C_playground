@@ -143,6 +143,7 @@
     <ClCompile Include="src\MyMap.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MyStoi.h" />
     <ClInclude Include="src\MyStream.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="src\MyStoi.h" />
     <ClInclude Include="src\MyStream.h" />
+    <ClInclude Include="src\MyTreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

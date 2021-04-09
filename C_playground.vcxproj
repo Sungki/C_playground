@@ -143,6 +143,7 @@
     <ClCompile Include="src\MyMap.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MyNode.h" />
     <ClInclude Include="src\MyStoi.h" />
     <ClInclude Include="src\MyStream.h" />
     <ClInclude Include="src\MyTreeNode.h" />

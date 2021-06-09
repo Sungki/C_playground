@@ -7,6 +7,6 @@ public:
 
 	static void Find(std::string target)
 	{
-
+		std::cout << "aaa";
 	}
 };

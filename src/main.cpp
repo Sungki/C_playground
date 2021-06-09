@@ -18,11 +18,13 @@ int main()
 
 //	std::cout << MyStoi::Stoi("1000000000000");
 
-	TreeNode t2(9);
+/*	TreeNode t2(9);
 	TreeNode t4(15);
 	TreeNode t5(7);
 	TreeNode t3(20, &t4, &t5);
 	TreeNode t1(3, &t2, &t3);
 
-	std::cout << TreeNode::maxDepth(&t1);
+	std::cout << TreeNode::maxDepth(&t1);*/
+
+
 }

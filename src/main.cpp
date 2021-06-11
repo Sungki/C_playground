@@ -7,6 +7,7 @@
 #include "MyMap.h"
 #include "MyStoi.h"
 #include "MyTreeNode.h"
+#include "MyBinaryGap.h"
 
 int main()
 {
@@ -26,5 +27,6 @@ int main()
 
 	std::cout << TreeNode::maxDepth(&t1);*/
 
-
+	MyBinaryGap mygap;
+	std::cout << mygap.solution(100);
 }

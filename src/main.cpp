@@ -8,6 +8,7 @@
 #include "MyStoi.h"
 #include "MyTreeNode.h"
 #include "MyBinaryGap.h"
+#include "MyArrays.h"
 
 int main()
 {
@@ -27,6 +28,19 @@ int main()
 
 	std::cout << TreeNode::maxDepth(&t1);*/
 
-	MyBinaryGap mygap;
-	std::cout << mygap.solution(100);
+//	MyBinaryGap mygap;
+//	std::cout << mygap.solution(100);
+
+/*	std::vector<int> v = { 0,3,5,7,9 };
+	MyArrays arr;
+	v = arr.solution(v, 3);
+
+	for (auto n : v)
+	{
+		std::cout << n << std::endl;
+	}*/
+
+	std::vector<int> v = { 9,3,9,3,9,7,9 };
+	MyArrays arr;
+	std::cout << arr.solution2(v);
 }

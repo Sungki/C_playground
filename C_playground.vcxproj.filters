@@ -41,5 +41,8 @@
     <ClInclude Include="src\MyBinaryGap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\MyArrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

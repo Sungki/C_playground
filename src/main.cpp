@@ -9,6 +9,7 @@
 #include "MyTreeNode.h"
 #include "MyBinaryGap.h"
 #include "MyArrays.h"
+#include "MySmallest.h"
 
 int main()
 {
@@ -40,7 +41,12 @@ int main()
 		std::cout << n << std::endl;
 	}*/
 
-	std::vector<int> v = { 9,3,9,3,9,7,9 };
-	MyArrays arr;
-	std::cout << arr.solution2(v);
+//	std::vector<int> v = { 9,3,9,3,9,7,9 };
+//	MyArrays arr;
+//	std::cout << arr.solution2(v);
+
+	std::vector<int> v = { 1, 3, 6, 4, 1, 2 };
+
+	MySmallest small;
+	std::cout << small.solution(v);
 }

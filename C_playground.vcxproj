@@ -146,6 +146,7 @@
     <ClInclude Include="src\MyArrays.h" />
     <ClInclude Include="src\MyBinaryGap.h" />
     <ClInclude Include="src\MyNode.h" />
+    <ClInclude Include="src\MySmallest.h" />
     <ClInclude Include="src\MyStoi.h" />
     <ClInclude Include="src\MyStream.h" />
     <ClInclude Include="src\MyTreeNode.h" />

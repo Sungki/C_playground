@@ -44,5 +44,8 @@
     <ClInclude Include="src\MyArrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\MySmallest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

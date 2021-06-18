@@ -10,6 +10,10 @@
 #include "MyBinaryGap.h"
 #include "MyArrays.h"
 #include "MySmallest.h"
+#include "MySolution.h"
+#include "MySolution1.h"
+#include "MySolution2.h"
+#include "MySolution3.h"
 
 int main()
 {
@@ -45,8 +49,26 @@ int main()
 //	MyArrays arr;
 //	std::cout << arr.solution2(v);
 
-	std::vector<int> v = { 1, 3, 6, 4, 1, 2 };
+//	std::vector<int> v = { 1, 3, 6, 4, 1, 2 };
 
-	MySmallest small;
-	std::cout << small.solution(v);
+//	MySmallest small;
+//	std::cout << small.solution(v);
+
+//	std::cout << v.end()-v.begin();
+
+
+//	MySolution sol;
+//	std::cout << sol.solution(34635);
+
+//	std::vector<int> v = { 1, 2, 5, 9, 9};
+//	MySolution1 sol;
+//	std::cout << sol.solution(v, 1);
+
+//	std::string s = "CBACD";
+//	MySolution2 sol;
+//	std::cout << sol.solution(s);
+
+	std::vector<int> v = { 7, 3, 7, 3, 1,3,4,1 };
+	MySolution3 sol;
+	sol.solution(v);
 }

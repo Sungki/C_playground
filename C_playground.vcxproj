@@ -147,6 +147,10 @@
     <ClInclude Include="src\MyBinaryGap.h" />
     <ClInclude Include="src\MyNode.h" />
     <ClInclude Include="src\MySmallest.h" />
+    <ClInclude Include="src\MySolution.h" />
+    <ClInclude Include="src\MySolution1.h" />
+    <ClInclude Include="src\MySolution2.h" />
+    <ClInclude Include="src\MySolution3.h" />
     <ClInclude Include="src\MyStoi.h" />
     <ClInclude Include="src\MyStream.h" />
     <ClInclude Include="src\MyTreeNode.h" />

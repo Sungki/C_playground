@@ -1,10 +1,17 @@
 #pragma once
 
+#include <vector>
+
 class MyTest
 {
 public:
-	void Solution()
+	int Solution(std::vector<int> v)
 	{
+		int ret = 0;
 
+		std::vector<int> temp(v);
+
+
+		return ret;
 	}
 };

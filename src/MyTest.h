@@ -2,5 +2,9 @@
 
 class MyTest
 {
+public:
+	void Solution()
+	{
 
+	}
 };

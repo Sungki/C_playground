@@ -20,6 +20,7 @@ public:
 			}
 		}
 
+		std::cout << "Ok!";
 
 		return 0;
 	}

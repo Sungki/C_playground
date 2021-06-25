@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include <vector>
 
 class MyTest
@@ -11,6 +12,8 @@ public:
 
 		std::vector<int> temp(v);
 
+		for (auto n : temp)
+			std::cout << n << std::endl;
 
 		return ret;
 	}

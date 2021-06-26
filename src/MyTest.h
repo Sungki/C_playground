@@ -15,6 +15,9 @@ public:
 		for (auto n : temp)
 			std::cout << n << std::endl;
 
+		for (int i = 0; i < temp.size()-i; i++)
+			temp[i] = temp[temp.size() - 1 - i];
+
 		return ret;
 	}
 };
